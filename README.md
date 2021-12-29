@@ -22,8 +22,8 @@ streaming.py
 - On failure in processing of file, publish ERROR_TOPIC which initiates streaming_error.py
 
 streaming_success.py
-- the file is moved to a "success" bucket
+- The file is moved to a "success" bucket
 
 streaming_error.py
-- the file is moved to a "error" bucket
+- The file is moved to a "error" bucket
 
